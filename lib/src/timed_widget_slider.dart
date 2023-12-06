@@ -34,13 +34,13 @@ class _TimedWidgetSliderState extends State<TimedWidgetSlider> {
       widget.onwardScrollDuration +
           widget.backwardScrollDuration +
           (widget.scrollDurationOffset * 2),
-          (Timer timer) => setState(
-            () {
+      (Timer timer) => setState(
+        () {
           scrollController.animateTo(scrollController.position.maxScrollExtent,
               duration: widget.onwardScrollDuration, curve: widget.scrollCurve);
           Future.delayed(
             widget.onwardScrollDuration + widget.scrollDurationOffset,
-                () {
+            () {
               scrollController.animateTo(
                   scrollController.position.minScrollExtent,
                   duration: widget.backwardScrollDuration,
@@ -70,14 +70,9 @@ class _TimedWidgetSliderState extends State<TimedWidgetSlider> {
           mainAxisAlignment: MainAxisAlignment.spaceBetween,
           children: [
             ...widget.widgets.map((elem) {
-              return Row(
-                  children: [
-                    elem
-                  ]
-              );
+              return Row(children: [elem]);
             }).toList()
           ],
-        )
-    );
+        ));
   }
 }
