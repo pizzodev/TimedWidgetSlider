@@ -1,14 +1,24 @@
 library timed_widget_slider;
 
 import 'dart:async';
-
 import 'package:flutter/cupertino.dart';
 
+/// Implementation of the widget list animation item
 class TimedWidgetSlider extends StatefulWidget {
+
+  /// List of the widgets to animate
   final List<Widget> widgets;
+
+  /// Duration of the scrolling animation left to right
   final Duration onwardScrollDuration;
+
+  /// Duration of the scrolling animation right to left
   final Duration backwardScrollDuration;
+
+  /// DUration off the waiting time between onward and backward animation
   final Duration scrollDurationOffset;
+
+  /// Type of curve to perform, refer to https://api.flutter.dev/flutter/animation/Curves-class.html for all examples
   final Curve scrollCurve;
 
   const TimedWidgetSlider({

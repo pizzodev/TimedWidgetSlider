@@ -72,6 +72,9 @@ class _MyHomePageState extends State<MyHomePage> {
               child: Container(
                 height: 80,
                 color: Theme.of(context).colorScheme.inversePrimary,
+                /// Example of usage: the params are configurable to adjust
+                /// the speed of the animation and get the needed effect.
+                /// The higher is the duration, the slower will the widgets slide
                 child: TimedWidgetSlider(
                   scrollCurve: Curves.linear,
                   onwardScrollDuration: const Duration(milliseconds: 2000),
