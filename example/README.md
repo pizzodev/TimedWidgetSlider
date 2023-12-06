@@ -1,16 +1,32 @@
-# timed_widget_slider_test_demo_app
+```dart
+/// Example of population of the widget list
+/// Use your own way ;)
+List<Widget> widgetList = [];
 
-A new Flutter project.
+for (var i = 0; i < 10; i++) {
+    widgetList.add(
+        OutlinedButton(
+          onPressed: () {},
+          child: Text('Item $i'),
+        ),
+    );
+    if (i < 9) {
+      widgetList.add(
+        const SizedBox(width: 10)
+      );
+    }
+}
+```
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+```dart
+/// The params are configurable to adjust
+/// the speed of the animation and get the needed effect.
+/// The higher is the duration, the slower will the widgets slide
+TimedWidgetSlider(
+scrollCurve: Curves.linear,
+onwardScrollDuration: const Duration(milliseconds: 2000),
+backwardScrollDuration: const Duration(milliseconds: 2000),
+scrollDurationOffset: const Duration(milliseconds: 500),
+widgets: /* Your widget list */ ,
+),
+```
