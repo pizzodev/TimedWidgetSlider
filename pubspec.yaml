@@ -1,6 +1,6 @@
 name: timed_widget_slider
 description: Creates a slider for a list of widgets that can be temporized and customized in its animation curve.
-version: 1.0.0
+version: 1.0.1
 homepage: https://pub.dev/packages/timed_widget_slider
 repository: https://github.com/pizzodev/TimedWidgetSlider
 
