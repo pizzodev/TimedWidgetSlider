@@ -1,5 +1,5 @@
 name: timed_widget_slider_test_demo_app
-description: A new Flutter project.
+description: Demo app that implements a timed_widget_slider
 version: 1.0.0+1
 
 environment:
