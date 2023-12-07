@@ -5,7 +5,6 @@ import 'package:flutter/cupertino.dart';
 
 /// Implementation of the widget list animation item
 class TimedWidgetSlider extends StatefulWidget {
-
   /// List of the widgets to animate
   final List<Widget> widgets;
 
