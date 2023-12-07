@@ -4,9 +4,10 @@ here -> https://api.flutter.dev/flutter/animation/Curves-class.html
 
 ## How it looks like
 
-EaseInCirc                                                                                                                  |  Linear                                                                                                                        | Decelerate
-:------------------------------------------------------------------------------------------------------------------------------:|:--------------------------------------------------------------------------------------------------------------------------:|:------------------------------------------------------------------------------------------------------------------------------:
-![easeInCirc](https://github.com/pizzodev/timed_widget_slider/assets/107438397/56adcca2-da2d-4a28-9df1-8fcf018b3f14?raw=true)   | ![linear](https://github.com/pizzodev/timed_widget_slider/assets/107438397/1125e842-2762-426b-a0e5-ef91376fdf1f?raw=true)  | ![decelerate](https://github.com/pizzodev/timed_widget_slider/assets/107438397/fe2eadf6-90a7-4829-8a80-83492495bb35?raw=true)
+| EaseInCirc                                                                                                                    | Linear                                                                                                                        | Decelerate                                                                                                                      |
+|:-----------------------------------------------------------------------------------------------------------------------------:|:-----------------------------------------------------------------------------------------------------------------------------:|:-------------------------------------------------------------------------------------------------------------------------------:|
+| ![easeInCirc](https://github.com/pizzodev/timed_widget_slider/assets/107438397/56adcca2-da2d-4a28-9df1-8fcf018b3f14?raw=true) |   ![linear](https://github.com/pizzodev/timed_widget_slider/assets/107438397/1125e842-2762-426b-a0e5-ef91376fdf1f?raw=true)   |  ![decelerate](https://github.com/pizzodev/timed_widget_slider/assets/107438397/fe2eadf6-90a7-4829-8a80-83492495bb35?raw=true)  |
+
 
 
 ## Usage
