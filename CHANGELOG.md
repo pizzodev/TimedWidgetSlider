@@ -20,10 +20,6 @@
 
 ## 1.0.3
 
-* Documentation and readme changes
-
-## 1.0.4
-
 * Update screenshots, score target
 
 

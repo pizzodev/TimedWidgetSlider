@@ -3,7 +3,7 @@ description: Creates a slider for a list of widgets that can be temporized and c
 homepage: https://github.com/pizzodev/timed_widget_slider
 repository: https://github.com/pizzodev/timed_widget_slider
 issue_tracker: https://github.com/pizzodev/timed_widget_slider/issues
-version: 1.0.4
+version: 1.0.3
 
 environment:
   sdk: '>=3.1.5 <4.0.0'
